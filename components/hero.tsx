@@ -47,10 +47,9 @@ export default function Hero() {
               <span className="animate-blink">|</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-              I build exceptional digital experiences with clean code and modern technologies. Turning complex problems
-              into elegant solutions is what I do best.
+              I am a fullstack? Developer, I mainly work on FiveM but can also do web3 and all sorts of stuff.
+              Have a project in mind or just want to chat? Drop a message below and I’ll get back to you as soon as possible. I’m always open to new ideas and collaborations.
             </p>
-
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="group" onClick={() => scrollToSection("projects")}>
                 View My Work
