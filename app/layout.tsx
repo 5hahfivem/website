@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Aim | Portfolio",
-  description: "Professional portfolio of Aim - Software Developer",
+  description: "Professional portfolio of Aim - FiveM Developer",
     generator: 'v0.dev'
 }
 

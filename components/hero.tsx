@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   const [text, setText] = useState("")
-  const fullText = "Software Developer"
+  const fullText = "FiveM Developer"
 
   useEffect(() => {
     let i = 0

@@ -10,7 +10,7 @@ import Navbar from "@/components/navbar"
 
 export const metadata: Metadata = {
   title: "Aim | Portfolio",
-  description: "Professional portfolio of Aim - Software Developer",
+  description: "Professional portfolio of Aim - FiveM Developer",
 }
 
 export default function Home() {
