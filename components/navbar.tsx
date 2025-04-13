@@ -34,8 +34,7 @@ export default function Navbar() {
     { name: "Home", href: "home" },
     { name: "About", href: "about" },
     { name: "Tech Stack", href: "tech-stack" },
-    { name: "Projects", href: "projects" },
-    { name: "Scripts", href: "custom-scripts" },
+    { name: "Projects and Scripts", href: "projects" },
     { name: "Testimonials", href: "testimonials" },
     { name: "Contact", href: "contact" },
   ]
