@@ -137,7 +137,29 @@ export default function Projects() {
       demoLink: "https://files.fivemerr.com/videos/9a1e11cf-b79b-4521-9237-f86fc282ceb0.mp4", // Replace with actual link
       // githubLink: "https://github.com/example/banking-script", // Replace with actual link
     },
-    
+    {
+      id: 3,
+      title: "Custom Live Handling Script",
+      shortDescription: "Interactive vehicle tuning tablet for real-time handling adjustments and dyno testing",
+      image: "https://files.fivemerr.com/images/4857f2d4-8ad1-461a-8763-7fc098363b47.png", // Replace with actual image URL when available
+      tags: ["Lua", "FiveM", "NUI", "React", "Mantine"],
+      whatItDoes: [
+        "Players can open a tablet UI in-game to tweak vehicle handling parameters live",
+        "Supports categories like General, Drivetrain, Braking, Steering, Traction, Suspension, Damage, Misc, and Dyno",
+        "Real-time updates to vehicle physics (e.g., mass, traction, suspension) via NUI callbacks",
+        "Includes a Dyno tab for simulated dynamometer tests, graphing RPM over time",
+        "Responsive iPad-style UI with dark theme, status bar, and animated battery indicator",
+        "Saves or resets handling changes with roleplay-friendly confirmations",
+        "Updates dynamically to reflect the current vehicle when switching cars",
+        "Ideal for car enthusiast roleplay, mechanic shops, and racing servers"
+      ],
+      dependencies: [
+        "Framework: QBox, QBCore, or any framework with NUI support",
+        "Frontend: Node.js, Yarn, React, Mantine, Recharts"
+      ],
+      demoLink: "https://files.fivemerr.com/videos/852150ff-c063-4b99-ba43-bc9678abaa30.mp4", // Replace with actual link
+      // githubLink: "https://github.com/example/banking-script", // Replace with actual link
+    }
   ]
   return (
     <div>
