@@ -12,53 +12,53 @@ export default function Testimonials() {
     visible: { opacity: 1, y: 0 },
   }
 
-  const testimonials = [
-    {
-      id: 1,
-      name: "Jake Thomson",
-      // position: "Owner of Horizon RP",
-      content:
-        "Shah completely overhauled our server's job system, and the results speak for themselves — players are more engaged, bugs are down to zero, and performance is buttery smooth. Highly recommended!",
-      rating: 5,
-      // image: "/placeholder.svg?height=100&width=100",
-    },
-    {
-      id: 2,
-      name: "Alyssa Moore",
-      // position: "Community Manager at Legacy State RP",
-      content:
-        "From custom heist scripts to unique player interaction mechanics, Shah brought our creative ideas to life. They’re fast, reliable, and super easy to work with.",
-      rating: 5,
-      // image: "/placeholder.svg?height=100&width=100",
-    },
-    {
-      id: 3,
-      name: "Carlos Mendes",
-      // position: "Lead Dev at Drift Syndicate",
-      content:
-        "Shah delivered a flawless drift points system that syncs with our leaderboard in real time. Players love it, and it’s helped grow our server’s active user base by 30%.",
-      rating: 4.5,
-      // image: "/placeholder.svg?height=100&width=100",
-    },
-    {
-      id: 4,
-      name: "Tina Lawson",
-      // position: "Admin at Paleto Valley RP",
-      content:
-        "We needed a custom MDT, court system, and jail mechanics — Shah nailed all three. They even added features we hadn’t thought of. Truly top-tier work!",
-      rating: 5,
-      // image: "/placeholder.svg?height=100&width=100",
-    },
-    {
-      id: 5,
-      name: "Reece Nakamura",
-      // position: "Founder of Synth RP",
-      content:
-        "Shah built our entire inventory and crafting system from scratch using ox_inventory. It’s sleek, efficient, and players haven’t stopped praising it since day one.",
-      rating: 4.8,
-      // image: "/placeholder.svg?height=100&width=100",
-    },
-  ]  
+  // const testimonials = [
+  //   {
+  //     id: 1,
+  //     name: "Jake Thomson",
+  //     // position: "Owner of Horizon RP",
+  //     content:
+  //       "Shah completely overhauled our server's job system, and the results speak for themselves — players are more engaged, bugs are down to zero, and performance is buttery smooth. Highly recommended!",
+  //     rating: 5,
+  //     // image: "/placeholder.svg?height=100&width=100",
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "Alyssa Moore",
+  //     // position: "Community Manager at Legacy State RP",
+  //     content:
+  //       "From custom heist scripts to unique player interaction mechanics, Shah brought our creative ideas to life. They’re fast, reliable, and super easy to work with.",
+  //     rating: 5,
+  //     // image: "/placeholder.svg?height=100&width=100",
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Carlos Mendes",
+  //     // position: "Lead Dev at Drift Syndicate",
+  //     content:
+  //       "Shah delivered a flawless drift points system that syncs with our leaderboard in real time. Players love it, and it’s helped grow our server’s active user base by 30%.",
+  //     rating: 4.5,
+  //     // image: "/placeholder.svg?height=100&width=100",
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "Tina Lawson",
+  //     // position: "Admin at Paleto Valley RP",
+  //     content:
+  //       "We needed a custom MDT, court system, and jail mechanics — Shah nailed all three. They even added features we hadn’t thought of. Truly top-tier work!",
+  //     rating: 5,
+  //     // image: "/placeholder.svg?height=100&width=100",
+  //   },
+  //   {
+  //     id: 5,
+  //     name: "Reece Nakamura",
+  //     // position: "Founder of Synth RP",
+  //     content:
+  //       "Shah built our entire inventory and crafting system from scratch using ox_inventory. It’s sleek, efficient, and players haven’t stopped praising it since day one.",
+  //     rating: 4.8,
+  //     // image: "/placeholder.svg?height=100&width=100",
+  //   },
+  // ]  
 
   const renderStars = (rating) => {
     const stars = []
