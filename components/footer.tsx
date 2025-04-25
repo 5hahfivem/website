@@ -11,7 +11,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="text-center md:text-right">
-            <p className="text-muted-foreground">© {currentYear} Aim. All rights reserved.</p>
+            <p className="text-muted-foreground">© {currentYear} Shah. All rights reserved.</p>
           </div>
         </div>
       </div>

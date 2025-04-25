@@ -37,13 +37,13 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
             variants={fadeIn}
           >
-            <h3 className="text-2xl font-bold mb-4">A Relentless FiveM Developer</h3>
+            <h3 className="text-2xl font-bold mb-4">FiveM Developer</h3>
             <p className="text-muted-foreground mb-6">
               I'm a FiveM developer with over a year of hands-on experience, focused on building highly optimized and fully custom scripts.
-              I’ve spent countless hours diving deep into Lua, JS, HTML/CSS, React,  to create immersive, high-performance experiences for servers.
+              I’ve spent countless hours diving deep into Lua, JS, HTML/CSS, React, to create high-performance experiences for servers.
             </p>
             <p className="text-muted-foreground mb-6">
-              From custom UIs to complex server-side systems, I follow best coding practices, prioritize performance, and constantly push to make cleaner, more efficient code with every project. I don’t just code to make things work—I code to make things better.
+              From custom UIs to complex systems, I follow best coding practices, prioritize performance, and constantly push to make cleaner, more efficient code with every project.
             </p>
             <p className="text-muted-foreground">
               Whether I’m fine-tuning framework logic or building a system from scratch, I'm all in. No shortcuts, no spaghetti—just clean, purposeful code that holds up under pressure.

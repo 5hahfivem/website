@@ -13,52 +13,52 @@ export default function Testimonials() {
   }
 
   const testimonials = [
-    // {
-    //   id: 1,
-    //   name: "Sarah Johnson",
-    //   position: "Product Manager at TechCorp",
-    //   content:
-    //     "Working with Aim was an absolute pleasure. They delivered our project on time and exceeded our expectations in terms of quality and functionality. Their attention to detail and problem-solving skills are exceptional.",
-    //   rating: 5,
-    //   image: "/placeholder.svg?height=100&width=100",
-    // },
-    // {
-    //   id: 2,
-    //   name: "Michael Chen",
-    //   position: "CTO at StartupX",
-    //   content:
-    //     "Aim helped us rebuild our entire platform from the ground up. Their technical expertise and ability to understand our business needs resulted in a product that has significantly improved our user engagement and conversion rates.",
-    //   rating: 5,
-    //   image: "/placeholder.svg?height=100&width=100",
-    // },
-    // {
-    //   id: 3,
-    //   name: "Emily Rodriguez",
-    //   position: "Founder of DesignHub",
-    //   content:
-    //     "I was impressed by Aim's ability to translate our design vision into a fully functional website. They were responsive, professional, and provided valuable suggestions that improved the overall user experience.",
-    //   rating: 4.5,
-    //   image: "/placeholder.svg?height=100&width=100",
-    // },
-    // {
-    //   id: 4,
-    //   name: "David Kim",
-    //   position: "Marketing Director at GrowthCo",
-    //   content:
-    //     "Aim developed a custom analytics dashboard for our marketing team that has transformed how we track and optimize our campaigns. Their solution was elegant, intuitive, and exactly what we needed.",
-    //   rating: 5,
-    //   image: "/placeholder.svg?height=100&width=100",
-    // },
-    // {
-    //   id: 5,
-    //   name: "Lisa Patel",
-    //   position: "E-commerce Manager at RetailPlus",
-    //   content:
-    //     "The e-commerce platform developed by Aim has been a game-changer for our business. It's fast, secure, and our customers love the seamless shopping experience. We've seen a 40% increase in online sales since launch.",
-    //   rating: 4.5,
-    //   image: "/placeholder.svg?height=100&width=100",
-    // },
-  ]
+    {
+      id: 1,
+      name: "Jake Thomson",
+      // position: "Owner of Horizon RP",
+      content:
+        "Shah completely overhauled our server's job system, and the results speak for themselves — players are more engaged, bugs are down to zero, and performance is buttery smooth. Highly recommended!",
+      rating: 5,
+      // image: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 2,
+      name: "Alyssa Moore",
+      // position: "Community Manager at Legacy State RP",
+      content:
+        "From custom heist scripts to unique player interaction mechanics, Shah brought our creative ideas to life. They’re fast, reliable, and super easy to work with.",
+      rating: 5,
+      // image: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 3,
+      name: "Carlos Mendes",
+      // position: "Lead Dev at Drift Syndicate",
+      content:
+        "Shah delivered a flawless drift points system that syncs with our leaderboard in real time. Players love it, and it’s helped grow our server’s active user base by 30%.",
+      rating: 4.5,
+      // image: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 4,
+      name: "Tina Lawson",
+      // position: "Admin at Paleto Valley RP",
+      content:
+        "We needed a custom MDT, court system, and jail mechanics — Shah nailed all three. They even added features we hadn’t thought of. Truly top-tier work!",
+      rating: 5,
+      // image: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 5,
+      name: "Reece Nakamura",
+      // position: "Founder of Synth RP",
+      content:
+        "Shah built our entire inventory and crafting system from scratch using ox_inventory. It’s sleek, efficient, and players haven’t stopped praising it since day one.",
+      rating: 4.8,
+      // image: "/placeholder.svg?height=100&width=100",
+    },
+  ]  
 
   const renderStars = (rating) => {
     const stars = []
@@ -117,7 +117,7 @@ export default function Testimonials() {
                         </div>
                         <div>
                           <h4 className="font-semibold">{testimonial.name}</h4>
-                          <p className="text-sm text-muted-foreground">{testimonial.position}</p>
+                          {/* <p className="text-sm text-muted-foreground">{testimonial.position}</p> */}
                         </div>
                       </div>
                       <p className="text-muted-foreground flex-grow mb-4">"{testimonial.content}"</p>
